@@ -1,10 +1,11 @@
-const numeroT = parseFloat(
-  prompt("Informe um número a ser usado nos cálculos:")
-);
+const numero = prompt( "Olá, eu sou o Robô da Tabuada" +
+  "Informe o número que você deseja calcular a tabuada:")
 
-let resultado = "";
+let resultado = ""
 
-for (tabuada = 1; tabuada <= 20; tabuada++) {
-  let result = numeroT * tabuada;
-  alert("\nResultado" + "\n" + numeroT + " X " + tabuada + " = " + result);
+for (let tabuada = 1; tabuada <= 20; tabuada++) {
+  resultado +=
+    " -> " + numero + " * " + tabuada + " = " + (numero * tabuada) + "\n"
 }
+
+alert(" Resultado da tabuada de " + numero + ":\n\n" + resultado)
