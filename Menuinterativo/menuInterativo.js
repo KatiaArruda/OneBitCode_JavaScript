@@ -13,22 +13,22 @@ do {
 
   switch (menu) {
     case "1":
-      alert("A escolha foi Aumentar o canal");
+      alert("1 - A escolha foi Aumentar o canal");
       break;
     case "2":
-      alert("A escolha foi Diminuir o canal");
+      alert("2 -A escolha foi Diminuir o canal");
       break;
     case "3":
-      alert("A escolha foi Aumentar o volume");
+      alert("3 - A escolha foi Aumentar o volume");
       break;
     case "4":
-      alert("A escolha foi Diminuir o volume");
+      alert("4 - A escolha foi Diminuir o volume");
       break;
     case "5":
-      alert("A escolha foi Encerrar o Menu");
+      alert("5 - A escolha foi Encerrar o Menu");
       alert("Encerrando...");
       break;
     default:
       alert("\nOpção Invalida!" + "\nPor favor, tente novamente");
   }
-} while (menu !== 5);
+} while (menu !== "5");
