@@ -18,6 +18,7 @@ function calculoAreaQuadrado() {
 function calculoAreaTrapézio() {
   const baseMaior = parseFloat(prompt("Informe a base maior do trapézio:"));
   const baseMenor = parseFloat(prompt("Informe a base menor do trapézio:"));
+  const altura = prompt("Informe a altura do trapézio:");
   return ((baseMaior + baseMenor) * altura) / 2;
 }
 
